@@ -28,7 +28,7 @@ jobs:
       run: pnpm prepack
 
     - name: Build Docs
-      run: pnpm docs:prepare && pnpm docs:build
+      run: pnpm docs:build
 
     - name: Tests
       run: pnpm test
