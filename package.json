@@ -1,6 +1,6 @@
 {
 	"name": "@hiperf/pixel",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Simple, Ultra lightweight, GDPR friendly, Meta Pixel (Facebook Pixel) module for your Nuxt application.",
 	"repository": {
 		"type": "git",
@@ -14,8 +14,8 @@
 			"import": "./dist/module.mjs"
 		},
 		"./*": {
-            "import": "./dist-helpers/*.mjs"
-        }
+			"import": "./dist-helpers/*.mjs"
+		}
 	},
 	"main": "./dist/module.mjs",
 	"typesVersions": {
@@ -26,7 +26,8 @@
 		}
 	},
 	"files": [
-		"dist", "dist-helpers"
+		"dist",
+		"dist-helpers"
 	],
 	"dependencies": {
 		"@nuxt/kit": "^3.17.6"
