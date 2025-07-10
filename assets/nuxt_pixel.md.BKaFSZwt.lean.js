@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as t,ae as n}from"./chunks/framework.CHGnagB_.js";const o=JSON.parse('{"title":"$pixel","description":"","frontmatter":{},"headers":[],"relativePath":"nuxt/pixel.md","filePath":"nuxt/pixel.md"}'),l={name:"nuxt/pixel.md"};function e(h,s,p,k,E,r){return t(),a("div",null,s[0]||(s[0]=[n("",4)]))}const c=i(l,[["render",e]]);export{o as __pageData,c as default};
