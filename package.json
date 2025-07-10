@@ -1,6 +1,6 @@
 {
 	"name": "@hiperf/pixel",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Simple, Ultra lightweight, GDPR friendly, Meta Pixel (Facebook Pixel) module for your Nuxt application.",
 	"repository": {
 		"type": "git",
