@@ -55,10 +55,12 @@
 		"dev": "npm run dev:prepare && nuxi dev playground",
 		"dev:build": "nuxi build playground",
 		"dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-		"release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+		"release": "pnpm run prepack && pnpm run docs:build && pnpm run test && changelogen --release && npm publish && git push --follow-tags",
 		"test": "vitest run",
 		"test:watch": "vitest watch",
 		"test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit",
-		"docs:dev": "vitepress dev docs"
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs"
 	}
 }
