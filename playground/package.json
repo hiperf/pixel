@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "nuxi dev",
+		"build": "nuxi build",
+		"generate": "nuxi generate"
+	},
+	"dependencies": {
+		"@hiperf/pixel": "link:..",
+		"nuxt": "^3.17.6"
+	}
+}
